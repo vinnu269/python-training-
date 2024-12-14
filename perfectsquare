@@ -1,0 +1,11 @@
+def perfectsquare(n):
+    if n<0:
+        return False
+    i=0
+    while i*i<=n:
+        if i*i==n:
+            return perfectsquare
+        i+=1
+    return not perfectsquare
+n=int(input())
+print(perfectsquare(n))
